@@ -1,0 +1,320 @@
+@import "./scss/titulo";
+@import "./scss/logo";
+@import "./scss/index";
+@import "./scss/contacto";
+@import "./scss/equipo";
+@import "./scss/h2";
+@import "./scss/p";
+@import "./scss/img";
+
+
+.nuestros{
+    color: darkgreen;
+    text-transform: uppercase;
+    text-align: center;
+}
+.diego{
+    text-transform: uppercase;
+}
+.nombre{
+    color: darkgreen;
+}
+.edad{
+    color: darkgreen;
+}
+.email{
+   color: darkgreen;
+}
+.boton{
+  color: darkgreen;
+}
+.boton:hover{
+    color: cyan;
+}
+.link{
+    display: flex;
+    justify-content: end;
+    gap: 10px ;
+    position: sticky;
+    top: 0px;
+    font-size: 20px;
+    gap: 20px; 
+    bottom: 5px;
+    text-transform: uppercase;
+}
+.link:link{
+    color: red;
+}
+.gruas{
+    width: 50%;
+    padding-left: 900px;
+    display: grid;
+   grid-template-columns: repeat(2, 200px);
+   grid-template-rows: repeat(1, 200px);
+   grid-template-areas: "grua1 grua2"
+                        "grua1 grua2"
+                        "grua3 grua4"
+                        "grua3 grua4";
+
+   
+}
+.grua1{
+    grid-area: grua1;
+}
+
+.grua2{
+    grid-area: grua2;
+}
+.grua3{
+    grid-area: grua3;
+
+  }
+.grua4{
+    grid-area: grua4;
+}    
+.gruas-text{
+    width: 300px;
+    display: block;
+    position: relative;
+    top: 300px;
+    left: 500px;
+    font-size: large;
+}
+.hidro{
+    width: 50%;
+    padding-left: 900px;
+    display: grid;
+   grid-template-columns: repeat(3, 200px);
+   grid-template-rows: repeat(2, 200px);
+   grid-template-areas: "hidro-1 hidro-2 hidro-3"
+                         "hidro-4 hidro-5 hidro-6";
+}
+.hidro-text{
+    width: 300px;
+    display: block;
+    position: relative;
+    top: 250px;
+    left: 500px;
+    font-size: large;
+}
+.carre{
+    width: 50%;
+    padding-left: 900px;
+    display: grid;
+   grid-template-columns: repeat(2, 200px);
+   grid-template-rows: repeat(1, 200px);
+   grid-template-areas: "carre1 carre2"
+                         "carre3 carre4";
+}
+.carre1{
+    grid-area: carre1;
+}
+.carre2{
+    grid-area: carre2;
+}
+.carre3{
+    grid-area: carre3;
+}
+.carre4{
+    grid-area: carre4;
+}
+.carre-text{
+    width: 300px;
+    display: block;
+    position: relative;
+    top: 250px;
+    left: 500px;
+    font-size: large;
+}
+.bar1{
+    width: 50%;
+    padding-left: 900px;
+    width: 400px;
+    height: 400px;
+}
+.bar-text{
+    width: 300px;
+    display: block;
+    position: relative;
+    top: 250px;
+    left: 500px;
+    font-size: large;
+}
+.contactanos{
+    text-align: center;
+    font-size: 50px
+
+}
+.formulario{
+   padding-left: 800px;
+    text-transform: uppercase;
+    
+}
+body{
+    background-color: aquamarine;
+}
+.copi{
+    display: block;
+    padding-top: 200px;
+}
+@media(max-width: 1024px) {
+
+    .link{
+        display: flex;
+        justify-content: end;
+        gap: 10px ;
+        position: sticky;
+        top: 0px;
+        font-size: 20px;
+        gap: 20px; 
+        bottom: 5px;
+        text-transform: uppercase;
+    }
+    .gruas{
+        padding-left: 400px;
+    } 
+    .gruas-text{
+        left: 100px;
+    }
+    .hidro{
+        padding-left: 400px;
+    }
+    .hidro-text{
+        left: 100px;
+    }
+    .carre{
+        padding-left: 400px;
+    }
+    .carre-text{
+        left: 100px;
+    }
+    .bar1{
+        padding-left: 400px;
+    }
+    .bar-text{
+        left: 100px;
+    }
+    .formulario{
+        padding-left: 400px;
+    }
+    .copi{
+        padding-top: 130px;
+    }
+
+}
+@media(max-width: 768px){
+    .link{
+        display: flex;
+        justify-content: end;
+        gap: 10px ;
+        position: sticky;
+        top: 0px;
+        font-size: 20px;
+        gap: 20px; 
+        bottom: 5px;
+        text-transform: uppercase;
+    }
+    .gruas{
+        width: 40%;
+        padding-left: 300px;
+    } 
+    .gruas-text{
+        width: 200px;
+        left: 50px;
+    }
+    .hidro{
+        height: 10%;
+        padding-right: 200px;
+        padding-left: 100px;
+    }
+    .hidro-text{
+        width: 300px;
+        display: block;
+        position: relative;
+        top: 10px;
+        left: 200px;
+        font-size: large;
+        
+    }
+    .carre{
+        padding-left: 350px;
+    }
+    .carre-text{
+        left: 50px;
+    }
+    .bar1{
+        padding-left: 350px;
+    }
+    .bar-text{
+        left: 50px;
+    }
+    .formulario{
+        padding-left: 300px;
+    }
+    .copi{
+        padding-top: 120px;
+    }
+
+
+}
+@media(max-width: 480px){
+    .link{
+        display: flex;
+        justify-content: end;
+        gap: 10px ;
+        position: sticky;
+        top: 0px;
+        font-size: 20px;
+        gap: 20px; 
+        bottom: 5px;
+        text-transform: uppercase;
+    }
+    .gruas{
+        width: 40px;
+        padding-left: 70px;
+    } 
+    .gruas-text{
+        width: 300px;
+        display: block;
+        position: relative;
+        top: 20px;
+        left: 100px;
+        font-size: large;
+       
+    }
+    .hidro{
+        height: 20%;
+        padding-right: 100px;
+        padding-left: 100px;
+        grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(2, 200px);
+
+    }
+    .hidro-text{
+        width: 300px;
+        display: block;
+        position: relative;
+        top: 10px;
+        left: 200px;
+        font-size: large;
+        
+    }
+    .carre{
+        padding-left: 350px;
+    }
+    .carre-text{
+        left: 50px;
+    }
+    .bar1{
+        padding-left: 350px;
+    }
+    .bar-text{
+        left: 50px;
+    }
+    .formulario{
+        padding-left: 100px;
+    }
+    .copi{
+        padding-top: 85px;
+    }
+}
